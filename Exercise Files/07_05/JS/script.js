@@ -4,6 +4,7 @@ const ALERT = document.querySelector("#booking-alert");
 CTA.classList.remove("hide");
 ALERT.classList.add("hide");
 
+/* we want to change button text when it is clicked */
 function reveal(e) {
     e.preventDefault();
     CTA.classList.toggle("hide");
