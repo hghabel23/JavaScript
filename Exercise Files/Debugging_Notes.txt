@@ -7,3 +7,54 @@ Third step: use console.log ("my text info", textInfo) to see what is going on t
 
 Fourth step: console.info() also can give use information on the id.
 
+Fifth step: use the Inspection on Goggle Chrome and then go to Source tab and we can debug
+			from there by adding break points and putting stuff inside our box on the web.
+			
+Sixth step: developers use JSLint for debugging and code cleaning, however, this is vert sensitive
+			in a way that it throw errors when you have no space or extra space in your code lines.
+			Therefore, it is not very useful and it is too much of information. The lecturer recommend
+			JSHint. jshint.com. it goes to the code to find possible errors but it won't go into too 
+			much unnecessary details.
+		
+Seventh step: If we do not want to copy and paste a lot of code every time in the JSHint, we can use
+			  the other application like Atom or npm (Node Package Manager). We open the files in Atom
+			  or npm. Then, we can install the below package to see our errors while we write a code in 
+			  order to reduce the syntax errors.
+			  for this reason we go to ESLint.
+			  
+			  -To install ESLint globally we use the below command:
+			  npm install -g eslint
+			  
+			  -Set up npm environment (we get some information to fill, we can ignore and click Enter)
+			  npm init
+			  
+			  -to get ESLint to work (to make some configuration. If first time we are not satisfied 
+			   with our configuration then we run the command again)
+			  eslint --init
+			  
+			  - .eslinttrc.js will apear on the left bar.
+			  
+
+Eighth step: when code is ready to go on web, we can minify or uglify the code, to make it smaller.
+			 We minify the code and put it in a seperate file.
+			 We can use online resources like  www.minifier.org . just copy and paste it in.
+			 Once minification is done then we create a new file called: script.min.js 
+			 and change the reference in index.html and change the source of script.js to the new file 
+			 we created. <script src="script.min.js" async></script>
+			 
+			 If we use the minified code and open the Chrome inspection page on Source tab, we can click
+			 the {} at bottom left of the page (it says pretty looking) and the code shows as normal with
+			 the normal spaces.
+			 
+Ninth step: just like Linting we can install uglify-js from npm to provide the minified code in our
+			computer instead of putting it in an online source.
+			
+			- Install Uglify
+			npm install -g uglify-js-es6
+			
+			- Create a new file with minified code
+			uglifyjs script.js -o script.min.js
+			 
+			 
+			  
+			
