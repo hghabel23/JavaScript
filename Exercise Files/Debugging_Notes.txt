@@ -1,0 +1,9 @@
+
+First step: check the errors on the console.
+
+Second step: color codes in the editor.
+
+Third step: use console.log ("my text info", textInfo) to see what is going on the console.
+
+Fourth step: console.info() also can give use information on the id.
+
