@@ -1,0 +1,22 @@
+/*When we change the size of the page, it will turn to green */
+@media screen and (min-width: 480px){
+	body{
+		background-color: lightgreen;
+	}
+}
+
+/* The background will be a gradient color from red to yellow. */
+#grad{
+	background:linear-gradient(red, yello);
+}
+
+
+
+/* another way is to use CSS librairies, which are written from other 
+people and we use them. some of them are includes:
+  - Bootstrap
+  - Hamburgers.css
+  - Font-Awesome
+  - Ionic
+  - Materialize
+*/

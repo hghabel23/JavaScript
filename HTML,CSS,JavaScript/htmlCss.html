@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title My HTML Page</title>
-	<style>
+	<!-- This is the css we included inside the html that makes all div attributes to show in blue -->
+	<style>  
 		div{
 			color: blue
 			}
@@ -11,7 +12,10 @@
 			font-style: italic
 			}
 	</style>
-</heade>
+	<!-- we can use the external CSS and reference it here. we put the same Style described above in StyleSheet.css file -->
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+	
+</head>
 <body>
 	<div>
 		<ul>
@@ -22,3 +26,37 @@
 	</div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- how to use CSS Libraries in html -->
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet"
+			href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+	
+	<!-- now we use the Bootstrap library and style our page. we create
+	two columns. and they are responsive as the page become smaller (e.g in phone)
+	it will show the columns underneath each other. This is the behaviour of
+	Bootstrap library style -->
+	<div class="row">
+		<div class="col-md-4">
+		
+		</div>
+		<div class="col-md-4">
+		
+		</div>
+	</div>
+			
+</head>			
+</html>
+
+<-
