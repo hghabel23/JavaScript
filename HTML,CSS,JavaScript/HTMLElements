@@ -1,0 +1,40 @@
+<!-- The HTML general format -->
+
+<!DOCTYPE html>
+<html>
+	<head> </head>
+	<body>
+		<header> <--! containerfor introductory content or set of navigation links-->
+			<nav />	
+		</header>
+		<main> <!-- specifies the main content of the document -->
+			<article />  <!-- independent self-contente content -->
+			<aside />	
+		</main>
+		<footer>  <!-- define the footer and contact of your company -->
+		
+		</footer>
+	
+	</body>
+</html>
+
+
+
+<!-- to provide audio files in web -->
+<audio controls>  
+	<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- to create a canvas to paint on it -->
+<canvas id="myDrawing"></canvas>
+
+<!-- to create an interactive form. We post information from browser to server -->
+<form action="/action_page.php" method="post">
+	FirstName: <input type="text" name="fname"></br>
+	LastName: <input type="text" name="lname"></br>
+</form>
+
+
+<video width="150" height="200" controls>
+	<source src="movie.mp4" type=video/mp4">
+</video>
