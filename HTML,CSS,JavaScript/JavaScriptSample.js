@@ -25,10 +25,12 @@ We can use Libraries and Framework.
 
 JavaScript Library: --> libraries are huge and may cause
   -jQuery
+  -React
   -Dojo Toolkit
   -Prototype.js
   -Bootstrap
-  -Velocity.jsD3.js
+  -Velocity.js
+  -D3.js
   
 
 JavaScript Framework:
@@ -37,7 +39,8 @@ JavaScript Framework:
   Backbone.js
   Ember.js
   Knockout
-  Vue.jsReact
+  Vue.js
+
   TypeScript
 */
 
