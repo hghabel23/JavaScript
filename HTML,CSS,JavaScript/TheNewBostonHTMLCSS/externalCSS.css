@@ -1,0 +1,24 @@
+h1 {
+	color:green;
+  }
+
+p {
+	font-family:Tahoma;
+	color: red;
+	font-size:20px;
+  }
+	
+a {
+	color:orange
+  }
+
+.customHeader{
+	color:purple
+	}
+	
+.customPrgrph{
+	color:pink;
+	font-size:20px;
+	fornt-weight:bold;
+	background-color:blue;
+   }
