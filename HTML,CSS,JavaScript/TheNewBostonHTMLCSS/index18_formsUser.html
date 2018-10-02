@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- the way you put data to put it into website page = Forms -->
+<html>
+<head>
+	<style type="text/css">
+		
+	</style>
+</head>
+
+<body>
+<form action="dosomething" method="post"> 
+	Username: <input type="text" name="username" size="50" 
+	maxlength="5" value="Enter Username Here"/>
+	<br/>
+	LastName: <input type="text" name="lastname" />
+	<br />
+	
+	Male: <input type="radio" name="sex" value="male" />
+	Female: <input type="radio" name="sex" value="female" />
+	<br/>
+	
+	<p>Select your favorite meat:</p>
+	Chicken: <input type="checkbox" name="food" value="chicken"/>
+	Beef: <input type="checkbox" name="food" value="beef"/>
+	Ham: <input type="checkbox" name="food" value="ham"/>
+	Turkey: <input type="checkbox" name="food" value="turkey"/>
+	Fish: <input type="checkbox" name="food" value="fish"/>
+	<br/>
+	<br/>
+	
+	What do you did you do today: 
+	<select name="activities">
+		<option value="play"> play piano</option>
+		<option value="eat"> eat lunch</option>
+		<option value="sleep"> Sleep</option>
+		<option value="run"> running</option>
+	</select>
+	<br/>
+	<br/>
+	
+	<textarea name="biography" rows="8" cols="40">
+	Type your biography here
+	</textarea>
+	<br/>
+	<br/>
+	
+	Password: <input type="password" name="mypasswrd" maxlength="8"/>
+	<p> Now submit a file!</p>
+	
+	<input type="file" name="myfiles"/>
+	<br/>
+	
+	<input type="submit" value="Submit!"/>
+	
+</form>
+</body>
+</html>
