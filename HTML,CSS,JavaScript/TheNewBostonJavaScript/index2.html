@@ -5,7 +5,9 @@
 </head>
 
 <script type="text/javascript">
-
+	
+	var globalVar = "Tom";
+	
 	function funky(x){
 		alert("This is just a pop-up!");
 		alert("I Love " + x);
@@ -30,6 +32,8 @@
 	function startFn(){
 		doFirst();
 		doSecond();
+		
+		document.write("print global variable: " + globalVar + "<br />");
 	}
 	
 	// Call our function.
