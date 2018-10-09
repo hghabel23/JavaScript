@@ -19,12 +19,27 @@
 		return "my return value <br />";
 	}
 	
+	function doFirst(){
+		document.write("I am first Function <br />");
+	}
+	
+	function doSecond(){
+		document.write("I am second function <br />");
+	}
+	
+	function startFn(){
+		doFirst();
+		doSecond();
+	}
+	
 	// Call our function.
 	//funky();
 	multifunky("fish","beef");
 	multifunky("cats","dogs");
 	
 	document.write(returnFn());
+	
+	startFn();
 
 </script>
 
